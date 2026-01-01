@@ -9,7 +9,6 @@
 .aiProposalTextContainer {
     margin: 8rem 0 4rem 0;
     display: flex;
-    justify-content: center;
 }
 
 .aiProposalTextContainer p {
