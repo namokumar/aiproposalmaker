@@ -1,0 +1,65 @@
+@import url(../app.css);
+
+.navbarContainer {
+    border-bottom: 1.8px solid rgb(196, 196, 196);
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.navbarInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navRight {
+    display: flex;
+}
+
+.navRight ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.navRight ul li {
+    list-style-type: none;
+}
+
+.loginBtn {
+    border: none;
+    background-color: transparent;
+    color: var(--secondary-color);
+    letter-spacing: 0.5px;
+    transition: all 0.5s ease-in-out;
+    font-weight: var(--bold);
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+    color: var(--text-color);
+    font-weight: var(--bold);
+    color: blue;
+    text-decoration: underline;
+}
+
+.GetStartedBtn {
+    letter-spacing: 0.5px;
+    border: none;
+    color: var(--bg-color);
+    background-color: var(--blue-700);
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: var(--border-radius);
+    font-weight: var(--bold);
+}

@@ -13,33 +13,69 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <div class="navLeft">
-        <span>
-          logo
-        </span>
-        <span>
-          AI Proposal Maker
-        </span>
-      </div>
-      <div class="navRight">
-        <ul>
-          <li>
-            <button>
-              Login
-            </button>
-          </li>
-          <li>
-            <button>
-              Get Started
-            </button>
-          </li>
-        </ul>
+  <!-- Navbar -->
+  <header class="navbar">
+    <nav class="navbarContainer">
+      <div class="container navbarInner">
+        <div class="navLeft">
+          <span>
+            <i data-lucide="sparkles" class="icon icon-blue-custom"></i>
+          </span>
+          <span>
+            AI Proposal Maker
+          </span>
+        </div>
+        <div class="navRight">
+          <ul>
+            <li>
+              <button class="loginBtn">
+                Login
+              </button>
+            </li>
+            <li>
+              <button class="GetStartedBtn">
+                Get Started
+              </button>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
+
+  <!-- Ai Proposal Maker Body contents -->
+  <main class="aiProposalBody">
+
+    <!-- Hero Section -->
+    <section class="heroContainer container">
+      <div class="aiProposalTextContainer">
+        <p>
+          <i data-lucide="sparkles" class="icon icon-blue-custom"></i> AI-Powered Proposal Generation
+        </p>
+      </div>
+      <div class="hero-content">
+        <h1>
+          Transform Meeting Notes into Professional Proposals in Seconds
+        </h1>
+        <p>
+          Upload your meeting transcripts, PRD, SRS, or BRD documents and let AI <br />
+          generate compelling business proposals with beautiful templates.
+        </p>
+        <div class="hero-cta">
+          <button class="ctaBtn">
+            <i data-lucide="sparkles" class="icon icon-blue-custom"></i>Start Creating Proposals
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Mail Application javascript-->
   <script type="module" src="/js/app.js"></script>
+  <!-- Lucide Icons calling/ Activation -->
+  <script>
+    // This call finds all [data-lucide] elements and replaces them with the SVG
+    lucide.createIcons();
+  </script>
 </body>
 
 </html>

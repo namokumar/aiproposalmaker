@@ -1,0 +1,23 @@
+@import url("./navbar/navbar.css");
+
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.aiProposalTextContainer {
+    margin: 8rem 0 4rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.aiProposalTextContainer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgb(163, 220, 242);
+    padding: 0.5rem 2.3rem;
+    border-radius: 3rem;
+}
