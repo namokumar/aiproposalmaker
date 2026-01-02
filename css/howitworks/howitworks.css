@@ -1,0 +1,44 @@
+@import url(../app.css);
+
+.howItWorksSection {
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h2 {
+    font-size: var(--big-text);
+    font-weight: var(--bold);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.header p {
+    font-size: var(--small-text);
+    color: var(--secondary-color);
+    text-align: center;
+    max-width: 600px;
+    margin: 1rem 0;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dadbdd;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 300px;
+    text-align: left;
+}

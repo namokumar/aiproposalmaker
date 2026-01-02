@@ -1,5 +1,6 @@
 @import url("./navbar/navbar.css");
 @import url("./hero/hero.css");
+@import url("./howitworks/howitworks.css");
 
 * {
     margin: 0;
@@ -17,6 +18,8 @@
     --border-radius: 0.5rem;
     --bold: 700;
     --color-green: #10b981;
+    --big-text: 2.5rem;
+    --small-text: 1.2rem;
 }
 
 /* main text */
