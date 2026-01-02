@@ -9,6 +9,7 @@
 .aiProposalTextContainer {
     margin: 8rem 0 4rem 0;
     display: flex;
+    justify-content: center;
 }
 
 .aiProposalTextContainer p {
@@ -16,7 +17,40 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    background: rgb(163, 220, 242);
+    background: rgb(196, 215, 227);
     padding: 0.5rem 2.3rem;
     border-radius: 3rem;
+    color: var(--primary-color);
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: var(--bold);
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.hero-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctaBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    background-color: var(--blue-700);
+    color: var(--bg-color);
+    font-weight: var(--bold);
+    transition: all 0.3s ease-in-out;
 }

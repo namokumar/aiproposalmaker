@@ -9,7 +9,7 @@
 
 :root {
     --page-padding: 14rem;
-    --primary-color: #3182ce;
+    --primary-color: #2554f1;
     --blue-700: #0665ff;
     --secondary-color: #525252;
     --bg-color: #f9fafb;
@@ -24,15 +24,34 @@ body {
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.btn {
+    letter-spacing: 0.5px;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: var(--border-radius);
+}
+
 .aiProposalBody {
     background: linear-gradient(to bottom right, #c5dbf7, #ffffff, #e0c0ff);
     background-repeat: no-repeat;
 }
 
-.icon-blue-custom {
+.icon-white {
+    color: #ffffff;
+}
+
+.icon-blue {
     color: var(--primary-color);
+}
+
+.icon-blue-medium {
     height: auto;
-    width: 2rem;
+    width: 2.2rem;
+}
+
+.icon-blue-small {
+    height: auto;
+    width: 1rem;
 }
 
 /* Global Padding Container for Home Page*/
